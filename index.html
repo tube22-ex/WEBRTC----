@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.webrtc.ecl.ntt.com/skyway-4.4.5.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn00">画面共有</button><br>
+    <input id="ID"></input>
+    <button id="btn">接続</button>
+    <p id="shareID"></p>
+    <video id="shareV" width="800px" autoplay playsinline controls></video><br>
+    <video id="myV" width="800px"></video><br>
+
+    <label>名前：<input type="text" id="chatName"></label><br>
+    <input type="text" id="messageInput" style="font-size: 3em;width: 90%;">
+    <div id="chatMessage" style="border: 1px solid black; width: 60%; height: 20em; overflow: scroll;"></div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
